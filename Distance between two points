@@ -1,0 +1,15 @@
+import math
+X1=int(input("Enter the value of X1"))
+X2=int(input("Enter the value of X2"))
+Y1=int(input("enter the value of Y1"))
+Y2=int(input("enter the value of Y2"))
+distance=math.sqrt((X2-X1)**2+(Y2-Y1)**2)
+print("Distance is{}".format(X1,X2,Y1,Y2,distance))\
+
+output:
+Enter the value of X1 4
+4
+Enter the value of X22
+enter the value of Y16
+enter the value of Y28
+Distance is4
