@@ -1,0 +1,12 @@
+import math
+p=int(input("Enter the principle amount"))
+t=int(input("Enter the time"))
+r=int(input("Enter the rate"))
+ci=p*((1+r)**t)
+print("the compund intrest is{}".format(p,t,r,ci))
+
+output:
+Enter the principle amount200
+Enter the time2
+Enter the rate2
+the compund intrest is200
