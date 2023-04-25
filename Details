@@ -1,0 +1,15 @@
+s=input("enter the full name")
+y=input("enter the address")
+t=input("enter the email id")
+d=input("enter the phone number")
+print("name of the person is {},address of the person is {},email id of the person is{},and their phonenumber is{}".format(s,y,t,d))
+
+output:
+enter the full name Deepika Kondla
+Deepika Kondla
+enter the address Boiwada
+Boiwada
+enter the email id 22wh1a12c8@bvrithyderabad.edu.in
+22wh1a12c8@bvrithyderabad.edu.in
+enter the phone number9908512111
+name of the person is Deepika Kondla,address of the person is Boiwada,email id of the person is22wh1a12c8@bvrithyderabad.edu.in,and their phonenumber is9908512111
