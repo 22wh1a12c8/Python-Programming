@@ -1,0 +1,12 @@
+import math
+a=int(input("Enter 1st side of triangle"))
+b=int(input("Enter 2nd side of triangle"))
+c=int(input("Enter 3rdside of triangle"))
+s=(a+b+c)/2
+triangle_area=math.sqrt(s*(s-a)*(s-b)*(s-c))
+print("area of triangle using heron's formula is {} whose half perimeter is {} ,side a is{},side b is {},side c is {}".format(triangle_area,s,a,b,c))
+OUTPUT:
+Enter 1st side of triangle5
+Enter 2nd side of triangle6
+Enter 3rdside of triangle7
+area of triangle using heron's formula is 14.696938456699069 whose half perimeter is 9.0 ,side a is5,side b is 6,side c is 7
