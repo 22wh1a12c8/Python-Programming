@@ -1,0 +1,10 @@
+m1,m2,m3,m4,m5=(int(z) for z in input("Enter the marks").split())
+total=m1+m2+m3+m4+m5
+print (total)
+average=(total)/5
+print(average)
+
+OUTPUT:
+Enter the marks34 56 8 98 12 
+208
+41.6
