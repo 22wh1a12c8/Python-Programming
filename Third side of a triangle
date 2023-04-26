@@ -1,0 +1,9 @@
+import math
+s=float(input("Enter the opposite side of a triangle"))
+p=float(input("Enter the adjacent side of a triangle"))
+hyp=math.sqrt(s**2+p**2)
+print("other side of the triangle is {} whose opposite side is{} and adjacent is{}".format(hyp,s,p))
+OUTPUT:
+Enter the opposite side of a triangle3
+Enter the adjacent side of a triangle4
+other side of the triangle is 5.0 whose opposite side is3.0 and adjacent is4.0
