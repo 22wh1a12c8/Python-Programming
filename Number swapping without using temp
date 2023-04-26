@@ -1,0 +1,11 @@
+c=9
+d=8
+c=c+d
+d=c-d
+c=c-d
+print("Value of c after swapping is : ",c)
+print("Value of d after swapping is: ",d)
+
+OUTPUT:
+Value of c after swapping is :  8
+Value of d after swapping is:  9
