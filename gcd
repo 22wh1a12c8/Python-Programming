@@ -1,0 +1,9 @@
+def gcd(x,y):
+    while(y):
+        x,y=y,x%y
+    return abs(x)
+print("The gcd of 60 and 48 is: ",end="")
+print(gcd(60,48))
+
+OUTPUT:
+The gcd of 60 and 48 is: 12
